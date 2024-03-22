@@ -77,7 +77,10 @@ Please follow the below instructions to run this branch in your machine:
    ```sh
    npm run dev
    ```
-
+7. Live
+   ```sh
+   https://cine-rental-app-inky.vercel.app/
+   ```
 <br>
 
 <br/>
