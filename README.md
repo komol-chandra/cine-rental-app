@@ -28,8 +28,27 @@
 
 ## ![htmlIcon][htmlicon-shield] Get Project
 
-Together, we're starting a fascinating project that makes use of Reducer and the React Context API. I think this video will help you build a strong React foundation. Open your VS Code right away, and come along on this adventure with me.
+**Cine Rental - Movie Rental Website**
 
+Cine Rental is a basic movie rental website built using React.js. It allows users to browse a list of available movies, view movie details, add movies to a shopping cart, remove movies from the cart, and toggle between light and dark modes for better user experience.
+
+**Features:**
+
+1. **Movie List:** Browse through a collection of available movies with details such as title, genre, and description.
+
+2. **Movie Details:** Click on a movie to view more details including the synopsis, release year, and rating.
+
+3. **Shopping Cart:** Add movies to a shopping cart for rental. Remove movies from the cart if no longer desired.
+
+4. **Dark Mode:** Toggle between light and dark modes for better readability and reduced eye strain.
+
+**React Hooks Used:**
+
+- **useState:** Used for managing local component state, such as toggling between light and dark modes.
+
+- **useContext:** Utilized for managing global application state, such as sharing the shopping cart state across multiple components.
+
+- **useReducer:** Implemented for managing more complex state transitions, such as adding and removing movies from the shopping cart.
 <!-- HOW TO RUN -->
 
 ## ![rocketIcon][rocketicon-shield] How to run
@@ -40,11 +59,11 @@ Please follow the below instructions to run this branch in your machine:
 
 2. Clone this repository -
    ```sh
-   git clone https://github.com/Learn-with-Sumit/rnext.git
+   git clone https://github.com/komol-chandra/cine-rental-app.git
    ```
 3. Go to the cloned project directory
    ```sh
-   cd rnext
+   cd cine-rental-app
    ```
 4. Checkout/switch to branch master
    ```sh
